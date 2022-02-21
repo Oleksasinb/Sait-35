@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Pro Game</title>
+</head>
+<body>
+
+    <div class="box">
+        <div class="floid"></div>
+        <div class="info">
+            <h3>Создать блок</h3>
+            <div class="creat">
+                <input  id="inputwidth"  type="number">
+                <input  id="inputhidth"  type="number">
+                <input  id="inputcolor"  type="color">
+                <div onclick="createblock ()" class="creat_button">Задать</div>
+                <div class="delete_button">Очистить</div>
+            </div>
+            <h3>Перемещения блока</h3>
+            <div class="movint">
+                <div onclick="vlevo ()">LEFT</div>
+                <div onclick="verh ()">TOP</div>
+                <div onclick="vniz ()">BOTTOM</div>
+                <div onclick="vpravo ()">RIGHT</div>
+            </div>
+        </div>
+    </div>
+
+<script src="./main.js"></script>
+</body>
+</html>
+        
